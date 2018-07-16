@@ -22,15 +22,6 @@ QQ 群：361920466
 1. 下载 Quick-Cocos2dx-Community 最新版，并解压到一个路径。
 	> 解压的路径以及文件夹名称**不要有中文或空格**.
 2. Mac系统：在终端中执行：setup_mac.sh
-	> 命令前*不需要*加入sudo。当提示输入密码的时候，请输入当前用户的登陆密码。 如果遇到新建的工程mac_ios项目不能编译通过，多是Xcode环境变量设置失败，建议在终端手动输入下面的命令。
-
-	```
-    defaults write com.apple.dt.Xcode IDEApplicationwideBuildSettings -dict
-	# 路径替换为自己的Quick root
-	defaults write com.apple.dt.Xcode IDEApplicationwideBuildSettings -dict-add QUICK_V3_ROOT "/User/u0u0/Quick_cocos2dx_Community"
-	defaults write com.apple.dt.Xcode IDESourceTreeDisplayNames -dict
-	defaults write com.apple.dt.Xcode IDESourceTreeDisplayNames -dict-add QUICK_V3_ROOT QUICK_V3_ROOT
-    ```
 
    Windows系统：双击setup_win.bat即可。
 3. 启动 player
